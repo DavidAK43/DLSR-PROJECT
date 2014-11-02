@@ -1,0 +1,6 @@
+#include "DLSR\DIALOG\defines_GLOBAL.hpp"
+
+
+class CfgFunctions {
+    #include "DLSR\functions\functions.hpp"
+};  

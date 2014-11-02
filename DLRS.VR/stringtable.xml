@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+
+	<Project name="DLSR"> 
+	
+		<Package name="DLSR"> 
+		
+			<Container name="Header Text"> 
+			
+				<Key ID="STR_A3_DLSR_txt_mainHeader"> 
+					<Original>DLSR</Original> 
+					<English>DLSR</English> 
+					<Czech>DLSR</Czech> 
+					<French>DLSR</French> 
+					<German>DLSR</German> 
+					<Italian>DLSR</Italian> 
+					<Polish>DLSR</Polish> 
+					<Portuguese>DLSR</Portuguese> 
+					<Russian>DLSR</Russian> 
+					<Spanish>DLSR</Spanish> 
+				</Key> 
+				
+				<Key ID="STR_A3_DLSR_txt_weaponHeader"> 
+					<Original>Weapons</Original> 
+					<English>Weapons</English> 
+					<Czech>Zbraně</Czech> 
+					<French>Armes</French> 
+					<German>Waffen</German> 
+					<Italian>Armi</Italian> 
+					<Polish>Broń</Polish> 
+					<Portuguese>Armas</Portuguese> 
+					<Russian>Оружие</Russian> 
+					<Spanish>Armas</Spanish> 
+				</Key> 
+				
+				<Key ID="STR_A3_DLSR_txt_ammoHeader"> 
+					<Original>Ammo</Original> 
+					<English>Ammo</English> 
+					<Czech>Munice</Czech> 
+					<French>Munitions</French> 
+					<German>Munition</German> 
+					<Italian>Munizioni</Italian> 
+					<Polish>Amunicja</Polish> 
+					<Portuguese>Munição</Portuguese> 
+					<Russian>Боеприпасы</Russian> 
+					<Spanish>Munición</Spanish> 
+				</Key> 
+				
+				<Key ID="STR_A3_DLSR_txt_accHeader"> 
+					<Original>Accessories</Original> 
+					<English>Accessories</English> 
+					<Czech>Doplňky</Czech> 
+					<French>Accessoires</French> 
+					<German>Ausstattung</German> 
+					<Italian>Accessori</Italian> 
+					<Polish>Akcesoria</Polish> 
+					<Portuguese>Acessórios</Portuguese> 
+					<Russian>Оборудование</Russian> 
+					<Spanish>Accesorios</Spanish> 
+				</Key> 
+				
+				<Key ID="STR_A3_DLSR_txt_uniformsHeader"> 
+					<Original>Uniforms</Original> 
+					<English>Uniforms</English> 
+					<Czech>Uniformy</Czech> 
+					<French>Uniformes</French> 
+					<German>Uniformen</German> 
+					<Italian>Uniformi</Italian> 
+					<Polish>Mundury</Polish> 
+					<Portuguese>Uniformes</Portuguese> 
+					<Russian>Униформы</Russian> 
+					<Spanish>Uniformes</Spanish> 
+				</Key> 
+				
+				<Key ID="STR_A3_DLSR_txt_vestsHeader"> 
+					<Original>Vests</Original> 
+					<English>Vests</English> 
+					<Czech>Vesty</Czech> 
+					<French>Gilets</French> 
+					<German>Westen</German> 
+					<Italian>Gibernaggio</Italian> 
+					<Polish>Kamizelki</Polish> 
+					<Portuguese>Coletes</Portuguese> 
+					<Russian>Жилеты</Russian> 
+					<Spanish>Chalecos</Spanish> 
+				</Key> 
+				
+				<Key ID="STR_A3_DLSR_txt_backPacksHeader"> 
+					<Original>Backpacks</Original> 
+					<English>Backpacks</English> 
+					<Czech>Batohy</Czech> 
+					<French>Sacs à dos</French> 
+					<German>Rucksäcke</German> 
+					<Italian>Zaini</Italian> 
+					<Polish>Plecaki</Polish> 
+					<Portuguese>Mochilas</Portuguese> 
+					<Russian>Рюкзаки</Russian> 
+					<Spanish>Mochilas</Spanish> 
+				</Key>
+
+				<Key ID="STR_A3_DLSR_txt_headGearHeader"> 
+					<Original>Headgear</Original> 
+					<English>Headgear</English> 
+					<Czech>Pokrývky hlavy</Czech> 
+					<French>Couvre-chef</French> 
+					<German>Kopfbedeckung</German> 
+					<Italian>Elmetto</Italian> 
+					<Polish>Nakrycia głowy</Polish> 
+					<Portuguese>Capacete</Portuguese> 
+					<Russian>Головной убор</Russian> 
+					<Spanish>Casco</Spanish> 
+				</Key> 	
+
+				<Key ID="STR_A3_DLSR_txt_glassesHeader"> 
+					<Original>Glasses</Original> 
+					<English>Glasses</English> 
+					<Czech>Brýle</Czech> 
+					<French>Lunettes</French> 
+					<German>Brillen</German> 
+					<Italian>Occhiali</Italian> 
+					<Polish>Okulary</Polish> 
+					<Portuguese>Oculos</Portuguese> 
+					<Russian>Очки</Russian> 
+					<Spanish>Gafas</Spanish> 
+				</Key> 								
+				
+				<Key ID="STR_A3_DLSR_txt_compatibleHeader"> 
+					<Original>Compatible Items</Original> 
+					<English>Compatible Items</English> 
+					<Czech>Kombinovatelné věci</Czech> 
+					<French>Éléments Compatibles</French> 
+					<German>Kompatible Elemente</German> 
+					<Italian>Oggetti Compatibili</Italian> 
+					<Polish>Przedmioty kompatybilne</Polish> 
+					<Portuguese>Itens compativeis</Portuguese> 
+					<Russian>Совместимые вещи</Russian> 
+					<Spanish>Items compatibles</Spanish> 
+				</Key> 
+				
+				<Key ID="STR_A3_DLSR_txt_uniformContainerHeader"> 
+					<Original>Uniform Items</Original> 
+					<English>Uniform Items</English> 
+					<Czech>Položky v uniformě</Czech> 
+					<French>Éléments d'uniforme</French> 
+					<German>Uniform Elemente</German> 
+					<Italian>Oggetti per Uniformi</Italian> 
+					<Polish>Przedmioty w mundurze</Polish> 
+					<Portuguese>Itens do uniforme</Portuguese> 
+					<Russian>Вещи униформы</Russian> 
+					<Spanish>Items del uniforme</Spanish> 
+				</Key> 
+				
+				<Key ID="STR_A3_DLSR_txt_vestContainerHeader"> 
+					<Original>Vest Items</Original> 
+					<English>Vest Items</English> 
+					<Czech>Položky ve vestě</Czech> 
+					<French>Éléments de Gilet</French> 
+					<German>Westen Elemente</German> 
+					<Italian>Oggetti per Gibernaggio</Italian> 
+					<Polish>Przedmioty w kamizelce</Polish> 
+					<Portuguese>Itens do colete</Portuguese> 
+					<Russian>Вещи жилета</Russian> 
+					<Spanish>Items del chaleco</Spanish> 
+				</Key> 
+				
+				<Key ID="STR_A3_DLSR_txt_backPackContainerHeader"> 
+					<Original>Backpack Items</Original> 
+					<English>Backpack Items</English> 
+					<Czech>Položky v batohu</Czech> 
+					<French>Éléments de Sac à Dos</French> 
+					<German>Rucksack Elemente</German> 
+					<Italian>Oggetti per Zaini</Italian> 
+					<Polish>Przedmioty w plecaku</Polish> 
+					<Portuguese>Itens da mochila</Portuguese> 
+					<Russian>Вещи рюкзака</Russian> 
+					<Spanish>Items de la mochila</Spanish> 
+				</Key> 
+				
+				<Key ID="STR_A3_DLSR_txt_gearContainerHeader"> 
+					<Original>Equipped Gear</Original> 
+					<English>Equipped Gear</English> 
+					<Czech>Používané vybavení</Czech> 
+					<French>Armement</French> 
+					<German>Ausrüstung</German> 
+					<Italian>Attrezzatura Equipaggiata</Italian> 
+					<Polish>Wyposażenie w użyciu</Polish> 
+					<Portuguese>Equipamento equipado</Portuguese> 
+					<Russian>Снаряжение</Russian> 
+					<Spanish>Equipado</Spanish> 
+				</Key> 
+				
+			</Container> 
+			
+			<Container name="Tool Tips"> 
+			
+				<Key ID="STR_A3_DLSR_btn_saveLoadToolTip"> 
+					<Original>Manage your loadouts</Original> 
+					<English>Manage your loadouts</English> 
+					<Czech>Upravit výzbroj</Czech> 
+					<French>Gérer vos loadouts</French> 
+					<German>Loadouts verwalten</German> 
+					<Italian>Gestisci l'equipaggiamento</Italian> 
+					<Polish>Zarządzaj ekwipunkiem</Polish> 
+					<Portuguese>Gerencie seus equipamentos</Portuguese> 
+					<Russian>Изменить снаряжение</Russian> 
+					<Spanish>Administra tus loadouts</Spanish> 
+				</Key> 
+			
+				<Key ID="STR_A3_DLSR_btn_CTCToolTip"> 
+					<Original>Copy current loadout to clipboard</Original> 
+					<English>Copy current loadout to clipboard</English> 
+					<Czech>Kopírovat současnou výzbroj do schránky</Czech> 
+					<French>Copie ce loadout vers le presse-papier</French> 
+					<German>Aktuelles Loadout in Zwischenablage kopieren</German> 
+					<Italian>Copia l'equipaggiamento corrente nella clipboard</Italian> 
+					<Polish>Skopiuj obecny ekwipunek do schowka</Polish> 
+					<Portuguese>Copie os equipamentos para área de transferência</Portuguese> 
+					<Russian>Копировать текущее снаряжение в буфер обмена</Russian> 
+					<Spanish>Copiar loadout actual a portapapeles</Spanish> 
+				</Key> 
+									
+				<Key ID="STR_A3_DLSR_btn_loadLoad"> 
+					<Original>Load</Original> 
+					<English>Load</English> 
+					<Czech>Načíst</Czech> 
+					<French>Charge</French> 
+					<German>Laden</German> 
+					<Italian>Carica</Italian> 
+					<Polish>Ładuj</Polish> 
+					<Portuguese>Carregar</Portuguese> 
+					<Russian>Загрузить</Russian> 
+					<Spanish>Cargar</Spanish> 
+				</Key> 
+			
+				<Key ID="STR_A3_DLSR_btn_replaceLoad"> 
+					<Original>Replace</Original> 
+					<English>Replace</English> 
+					<Czech>Nahradit</Czech> 
+					<French>Remplacer</French> 
+					<German>Ersetzen</German> 
+					<Italian>Sostituisci</Italian> 
+					<Polish>Zastąp</Polish> 
+					<Portuguese>Substituir</Portuguese> 
+					<Russian>Заменить</Russian> 
+					<Spanish>Reemplazar</Spanish> 
+				</Key> 
+				
+				<Key ID="STR_A3_DLSR_btn_deleteLoad"> 
+					<Original>Delete</Original> 
+					<English>Delete</English> 
+					<Czech>Smazat</Czech> 
+					<French>Supprimer</French> 
+					<German>Entfernen</German> 
+					<Italian>Cancella</Italian> 
+					<Polish>Usuń</Polish> 
+					<Portuguese>Deletar</Portuguese> 
+					<Russian>Удалить</Russian> 
+					<Spanish>Borrar</Spanish> 
+				</Key> 
+			
+				<Key ID="STR_A3_DLSR_btn_renameLoad"> 
+					<Original>Rename</Original> 
+					<English>Rename</English> 
+					<Czech>Přejmenovat</Czech> 
+					<French>Renommer</French> 
+					<German>Umbenennen</German> 
+					<Italian>Rinomina</Italian> 
+					<Polish>Zmień nazwę</Polish> 
+					<Portuguese>Renomear</Portuguese> 
+					<Russian>Переим.</Russian> 
+					<Spanish>Renombrar</Spanish> 
+				</Key> 
+				
+				<Key ID="STR_A3_DLSR_btn_createLoad"> 
+					<Original>Create</Original> 
+					<English>Create</English> 
+					<Czech>Vytvořit</Czech> 
+					<French>Créer</French> 
+					<German>Erstellen</German> 
+					<Italian>Crea</Italian> 
+					<Polish>Stwórz</Polish> 
+					<Portuguese>Criar</Portuguese> 
+					<Russian>Создать</Russian> 
+					<Spanish>Crear</Spanish> 
+				</Key> 
+			
+			</container>
+			
+			
+			<Container name="Button Text"> 
+			
+			
+				<Key ID="STR_A3_DLSR_btn_addItem"> 
+					<Original>Add Item</Original> 
+					<English>Add Item</English> 
+					<Czech>Přidat položku</Czech> 
+					<French>Ajouter élément</French> 
+					<German>Element hinzufügen</German> 
+					<Italian>Aggiungi Oggetto</Italian> 
+					<Polish>Dodaj przedmiot</Polish> 
+					<Portuguese>Adicionar item</Portuguese> 
+					<Russian>Добавить вещь</Russian> 
+					<Spanish>Añadir Item</Spanish> 
+				</Key> 
+				
+				<Key ID="STR_A3_DLSR_btn_removeItem"> 
+					<Original>Remove Item</Original> 
+					<English>Remove Item</English> 
+					<Czech>Odebrat položku</Czech> 
+					<French>Enlever Element</French> 
+					<German>Element entfernen</German> 
+					<Italian>Rimuovi Oggetto</Italian> 
+					<Polish>Usuń przedmiot</Polish> 
+					<Portuguese>remover item</Portuguese> 
+					<Russian>Удалить вещь</Russian> 
+					<Spanish>Borrar Item</Spanish> 
+				</Key> 
+				
+				<Key ID="STR_A3_DLSR_btn_addMagazine"> 
+					<Original>Add Magazine</Original> 
+					<English>Add Magazine</English> 
+					<Czech>Přidat zásobník</Czech> 
+					<French>Ajouter Chargeur</French> 
+					<German>Magazin hinzufügen</German> 
+					<Italian>Aggiungi Caricatore</Italian> 
+					<Polish>Dodaj magazynek</Polish> 
+					<Portuguese>Adicionar carregador</Portuguese> 
+					<Russian>Добавить магазин</Russian> 
+					<Spanish>Añadir cargador</Spanish> 
+				</Key> 
+				
+				<Key ID="STR_A3_DLSR_btn_addAcc"> 
+					<Original>Add Acc</Original> 
+					<English>Add Acc</English> 
+					<Czech>Přidat doplňky</Czech> 
+					<French>Ajouter Acc</French> 
+					<German>Ausstattung hinzufügen</German> 
+					<Italian>Aggiungi Acc</Italian> 
+					<Polish>Dodaj akcesorium</Polish> 
+					<Portuguese>adicionar Acc</Portuguese> 
+					<Russian>Добавить оборудование</Russian> 
+					<Spanish>Añadir Acc</Spanish> 
+				</Key> 
+											
+			
+				
+				<Key ID="STR_A3_DLSR_btn_Gear"> 
+					<Original>Gear</Original> 
+					<English>Gear</English> 
+					<Czech>Vybavení</Czech> 
+					<French>Équipement</French> 
+					<German>Ausrüstung</German> 
+					<Italian>Equipaggiamento</Italian> 
+					<Polish>Wyposażenie</Polish> 
+					<Portuguese>Equipamento</Portuguese> 
+					<Russian>Снаряж.</Russian> 
+					<Spanish>Equipo</Spanish> 
+				</Key> 
+				
+				<Key ID="STR_A3_DLSR_btn_exit"> 
+					<Original>Exit DLSR</Original> 
+					<English>Exit DLSR</English> 
+					<Czech>Ukončit DLSR</Czech> 
+					<French>Quitter DLSR</French> 
+					<German>DLSR beenden</German> 
+					<Italian>Esci da DLSR</Italian> 
+					<Polish>Wyjdź z DLSR</Polish> 
+					<Portuguese>Sair do DLSR</Portuguese> 
+					<Russian>Выйти из DLSR</Russian> 
+					<Spanish>Salir DLSR</Spanish> 
+				</Key> 
+				
+			</Container> 
+			
+			<Container name="Warnings"> 
+			
+				<Key ID="STR_A3_DLSR_hint_MainGearWarn"> 
+					<Original>You can't put this item into your main gear. Please select a valid container first.</Original> 
+					<English>You can't put this item into your main gear. Please select a valid container first.</English> 
+					<Czech>Tuto věc nemůžeš vložit do svého vybavení. Vyber platné umístění.</Czech> 
+					<French>Vous ne pouvez pas ajouter cet élément à votre équipement principal. Veulliez d'abord choisir un autre conteneur.</French> 
+					<German>Du kannst diesen Gegenstand nicht in dein Inventar packen. Bitte wähle zuerst einen passenden Container.</German> 
+					<Italian>Non puoi inserire questo oggetto nel contenitore. Prima seleziona un contenitore valido.</Italian> 
+					<Polish>Nie możesz umieścić tego przedmiotu w głównym wyposażeniu. Wybierz wpierw prawidłowy zasobnik.</Polish> 
+					<Portuguese>Você não pode colocar este item no seu equipamento principal. Selecione uma opção valida antes.</Portuguese> 
+					<Russian>Вы не можете добавить эту вещь в инвентарь. Пожалуйста, сначала выберите подходящее снаряжение.</Russian> 
+					<Spanish>No puedes poner ese item en tu equipo. Por favor elige primero un contenedor válido.</Spanish> 
+				</Key> 
+				
+				<Key ID="STR_A3_DLSR_hint_equipSignal"> 
+					<Original>You've equipped the %1 to your %2.</Original> 
+					<English>You've equipped the %1 to your %2.</English> 
+					<Czech>Vzal sis %1 do %2.</Czech> 
+					<French>Vous avez équipé le %1 à votre %2.</French> 
+					<German>Du hast %1 zu deine(r/m) %2 hinzugefügt.</German> 
+					<Italian>Ha equipaggiato il suo %1 al suo %2.</Italian> 
+					<Polish>Zamontowałeś %1 na %2.</Polish> 
+					<Portuguese>Você equipou o %1 no seu %2.</Portuguese> 
+					<Russian>Вы установили %1 на %2.</Russian> 
+					<Spanish>Te has equipoado el %1 a tu %2.</Spanish> 
+				</Key> 
+				
+				<Key ID="STR_A3_DLSR_hint_compatWarn"> 
+					<Original>%1 isn't compatible with any of your equipped weapons. If you would still like to carry a %1, please select an appropriate container and add the item.</Original> 
+					<English>%1 isn't compatible with any of your equipped weapons. If you would still like to carry a %1, please select an appropriate container and add the item.</English> 
+					<Czech>%1 není kombinovatelná součást s tvými zbraněmi. Pokud chceš přidat %1, vyber odpovídající umístění a přidej položku tam.</Czech> 
+					<French>%1 n'est compatible avec aucun de vos armes équipés. Si vous désirez vous équiper de %1, veuillez choisir un conteneur qui convient et ajouter l'élément.</French> 
+					<German>%1 ist mit keiner deiner Waffen kompatibel. Wenn du dennoch ein(e) %1 tragen willst, wähle bitte einen passenden Container und füge diesen Gegenstand hinzu.</German> 
+					<Italian>%1 non e' compatibile con nessuna delle tue armi equipaggiate. Se vuoi comunque trasportare un/una %1 seleziona in contenitore appropriato ed aggiungi l'oggetto.</Italian> 
+					<Polish>%1 nie jest kompatybilny z żadną z używanych broni. Jeśli mimo to chcesz wziąć %1, wybierz odpowiedni zasobnik i umieść w nim przedmiot.</Polish> 
+					<Portuguese>%1 não é compativel com nenhuma de suas armas. Se você ainda quer carregar %1, selecione uma opção correta e adicione o item.</Portuguese> 
+					<Russian>%1 не совместимо с вашим оружием. Если вы всё же хотите получить %1, пожалуйста, выберите подходящее снаряжение и добавьте вещь.</Russian> 
+					<Spanish>%1 no es compatible con ningún arma que tengas equipada. Si aún quieres llevar un %1, por favor elige un contenedor apropiado y añade el item.</Spanish> 
+				</Key> 
+				
+				<Key ID="STR_A3_DLSR_hint_placedInContMsg"> 
+					<Original>You've placed the %1 in your %2.</Original> 
+					<English>You've placed the %1 in your %2.</English> 
+					<Czech>Vložil jsi %1 do %2.</Czech> 
+					<French>Vous avez mis le %1 dans votre %2.</French> 
+					<German>Du hast %1 in deine(n) %2 getan.</German> 
+					<Italian>Ha messo il suo %1 nel suo %2.</Italian> 
+					<Polish>Umieściłeś %1 w %2.</Polish> 
+					<Portuguese>Você colocou o %1 na sua %2.</Portuguese> 
+					<Russian>Вы поместили %1 в %2.</Russian> 
+					<Spanish>Has colocado el %1 en tu %2.</Spanish> 
+				</Key> 
+				
+				<Key ID="STR_A3_DLSR_hint_noRoomWarn"> 
+					<Original>Your %1 has no room for that item.</Original> 
+					<English>Your %1 has no room for that item.</English> 
+					<Czech>%1 je již plná, pro další věc není místo.</Czech> 
+					<French>Votre %1 n'a pas d'espace pour cet élément.</French> 
+					<German>Dein(e) %1 hat keinen Platz für diesen Gegenstand.</German> 
+					<Italian>Il vostro %1 non ha spazio per quel elemento.</Italian> 
+					<Polish>Ten przedmiot się nie zmieści w %1.</Polish> 
+					<Portuguese>Sua %1 não tem mais espaço para este item.</Portuguese> 
+					<Russian>%1 не имеет места для этой вещи.</Russian> 
+					<Spanish>Your %1 no tiene espacio para ese item.</Spanish> 
+				</Key> 
+				
+				<Key ID="STR_A3_DLSR_hint_sideWarn"> 
+					<Original>%1 you can't equip a %2 because you're side %3.</Original> 
+					<English>%1 you can't equip a %2 because you're side %3.</English> 
+					<Czech>%1 nemůžeš si vzít %2 ,protože jsi strana %3.</Czech> 
+					<French>%1 Vous ne pouvez vous équiper de %2 parce que vous êtes du côté %3.</French> 
+					<German>Du kannst eine %1 nicht mit %2 ausstatten, da du Seite %3 bist.</German> 
+					<Italian>%1 non puo equipaggiarsi di %2 perché è del lato %3.</Italian> 
+					<Polish>%1, nie możesz nosić %2 ponieważ jesteś po stronie %3.</Polish> 
+					<Portuguese>%1 você não pode equipar %2 porque você é do lado %3.</Portuguese> 
+					<Russian>%1, вы не можете получить %2, поскольку ваша сторона - %3.</Russian> 
+					<Spanish>%1 no puedes equiparte un %2 porque eres del equipo %3.</Spanish> 
+				</Key> 
+				
+				
+				
+			</container>
+			
+		</Package> 
+		
+	</Project>
