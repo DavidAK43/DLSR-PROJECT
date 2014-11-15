@@ -5,13 +5,13 @@
 DLS_LOADOUTS		= 20000;
 
 DLS_BTN_LOAD		= 20001;
-DLS_BTN_REPLACE	= 20002;
+DLS_BTN_REPLACE		= 20002;
 DLS_BTN_DELETE		= 20003;
 DLS_BTN_RENAME		= 20004;
 DLS_BTN_CREATE		= 20005;
-DLS_LB_LOADOUTS	= 20006;
-DLS_LB_GEAR			= 20007;
-DLS_EB_NAME			= 20008;
+DLS_LB_LOADOUTS		= 20006;
+DLS_LB_GEAR		= 20007;
+DLS_EB_NAME		= 20008;
 
 DLS_playerLoadouts = profileNamespace getVariable ["DLS_loadouts",[]];
 _lastLoadout = profileNamespace getVariable ["DLS_lastLoadout",nil];
