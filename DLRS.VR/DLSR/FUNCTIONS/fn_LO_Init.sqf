@@ -2,16 +2,16 @@
 
 #define UIctrl(ctrl) ((findDisplay 20000) displayCtrl ctrl)
 
-DLS_LOADOUTS		= 	20000;
+DLS_LOADOUTS		= 20000;
 
 DLS_BTN_LOAD		= 20001;
-DLS_BTN_REPLACE	= 20002;
+DLS_BTN_REPLACE		= 20002;
 DLS_BTN_DELETE		= 20003;
 DLS_BTN_RENAME		= 20004;
 DLS_BTN_CREATE		= 20005;
-DLS_LB_LOADOUTS	= 20006;
-DLS_LB_GEAR			= 20007;
-DLS_EB_NAME			= 20008;
+DLS_LB_LOADOUTS		= 20006;
+DLS_LB_GEAR		= 20007;
+DLS_EB_NAME		= 20008;
 
 DLS_playerLoadouts = profileNamespace getVariable ["DLS_loadouts",[]];
 _lastLoadout = profileNamespace getVariable ["DLS_lastLoadout",nil];
@@ -19,8 +19,7 @@ _loadoutIndex = -1;
 
 if (!(isNil "_lastLoadout") ) then {
 	{
-		_loadoutName = _x select 0;
-		if (_loadoutName == _lastLoadout) exitWith {
+		if ( (_x select 0) == _lastLoadout) exitWith {
 			_loadoutIndex = _forEachIndex;
 		};
 	}forEach DLS_playerLoadouts;
@@ -30,21 +29,11 @@ if (!(isNil "_lastLoadout") ) then {
 
 ctrlSetFocus UIctrl(DLS_BTN_LOAD);
 
-_EB_Text = false;
-_LB_Selected = false;
-while { !(isNull (findDisplay 20000)) && dialog } do {
+while { !(isNull (findDisplay DLS_LOADOUTS)) && dialog } do {
 
-	if (lbCurSel UIctrl(DLS_LB_LOADOUTS) > -1) then {
-		_LB_Selected = true;
-	}else{
-		_LB_Selected = false;
-	};
-
-	if (ctrlText UIctrl(DLS_EB_NAME) != "") then {
-		_EB_Text = true;
-	}else{
-		_EB_Text = false;
-	};
+	_LB_Selected = (lbCurSel UIctrl(DLS_LB_LOADOUTS) > -1);
+	
+	_EB_Text = (ctrlText UIctrl(DLS_EB_NAME) != "");
 
 	UIctrl(DLS_BTN_REPLACE) ctrlEnable _LB_Selected;
 	UIctrl(DLS_BTN_LOAD) ctrlEnable _LB_Selected;
@@ -52,12 +41,8 @@ while { !(isNull (findDisplay 20000)) && dialog } do {
 
 	UIctrl(DLS_BTN_CREATE) ctrlEnable _EB_Text;
 
-	if (_EB_Text && _LB_Selected) then {
-		UIctrl(DLS_BTN_RENAME) ctrlEnable true;
-	}else{
-		UIctrl(DLS_BTN_RENAME) ctrlEnable false;
-	};
-
+	UIctrl(DLS_BTN_RENAME) ctrlEnable (_EB_Text && _LB_Selected);
+	
 };
 
 //player sideChat "ui finished";
