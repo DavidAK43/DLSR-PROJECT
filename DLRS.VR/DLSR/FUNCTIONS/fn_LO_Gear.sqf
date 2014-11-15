@@ -5,7 +5,8 @@
 lbClear UIctrl(DLS_LB_GEAR);
 
 _loadoutIndex = _this select 0;
-_loadoutArray = DLS_playerLoadouts select _loadoutIndex; // ERROR ZERO DIVISOR ??
+if ( _loadoutIndex < 0 ) exitWith {};
+_loadoutArray = DLS_playerLoadouts select _loadoutIndex; // ERROR ZERO DIVISOR ?? FIXED larrow
 
 //Remove name
 _loadoutArray = _loadoutArray - [_loadoutArray select 0];
