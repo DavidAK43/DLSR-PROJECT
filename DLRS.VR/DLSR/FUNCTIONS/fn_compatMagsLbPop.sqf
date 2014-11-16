@@ -70,3 +70,5 @@ _magArray = if ( ( count getArray (configfile >> "CfgWeapons" >> _className >> "
 
 	
 lbSetCurSel [ IDC_DLSR_LB_COMPATIBLEMAGS, lbCurSel IDC_DLSR_LB_COMPATIBLEMAGS ];
+
+ctrlSetText [ IDC_DLSR_TXT_DESCRIPTION_FOOTER, getText (configfile >> "CfgWeapons" >> lbData [IDC_DLSR_LB_MAIN, lbCurSel IDC_DLSR_LB_MAIN] >> "Library" >> "libTextDesc") ]; 

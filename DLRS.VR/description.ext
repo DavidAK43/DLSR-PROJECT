@@ -1,6 +1,23 @@
+respawn = 3;
+respawnDelay = 8;
+respawnVehicleDelay = 60;
+respawnDialog = 0;
+enableDebugConsole = 1;
+author="Iceman77";
+OnLoadName = "DLRS";
+OnLoadMission = "github.com/DavidAK43/DLRS-PROJECT";
+loadScreen = "";
+
+class Header
+{
+gameType = Coop; 
+minPlayers = 1;
+maxPlayers = 1; 
+};
+
 #include "DLSR\DIALOG\defines_GLOBAL.hpp"
 
-
-class CfgFunctions {
+class CfgFunctions 
+{
     #include "DLSR\functions\functions.hpp"
 };  

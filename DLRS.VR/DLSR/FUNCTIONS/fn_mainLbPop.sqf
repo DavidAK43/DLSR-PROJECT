@@ -79,5 +79,10 @@ lbSetCurSel [ IDC_DLSR_LB_MAIN, lbCurSel IDC_DLSR_LB_MAIN ];
 
 ctrlSetText [ IDC_DLSR_TXT_MUNITIONHEADER, localize (_this select 2) ];
 
+if (_type == "Weapon") then {
+	ctrlSetText [ IDC_DLSR_TXT_DESCRIPTION_FOOTER, getText (configfile >> "CfgWeapons" >> lbData [IDC_DLSR_LB_MAIN, lbCurSel IDC_DLSR_LB_MAIN] >> "Library" >> "libTextDesc") ]; 
+};
+
 [ ( _this select 3 ) ] call DLSR_fnc_setbtnAction;
- 
+
+

@@ -18,3 +18,5 @@ profileNamespace setVariable ["DLS_loadouts",DLS_playerLoadouts];
 hint format ["You have renamed %1 to %2", str _oldName, str _newName];
 
 [_loadoutIndex] call DLSR_fnc_LO_Refresh;
+
+nil

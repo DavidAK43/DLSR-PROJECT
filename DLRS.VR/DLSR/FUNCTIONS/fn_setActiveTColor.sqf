@@ -32,7 +32,7 @@
 	
 	(profilenamespace getvariable ['GUI_BCG_RGB_B',0.5]), 
 	
-	0.75 
+	1 
 	
 	
 ];

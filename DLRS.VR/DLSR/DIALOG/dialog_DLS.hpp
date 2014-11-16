@@ -28,6 +28,7 @@ class DLSR
 		DLSR_txt_munitionHeader,
 		DLSR_txt_compatibleHeader,
 		DLSR_txt_containerHeader,
+		DLSR_txt_description_footer,
 		DLSR_activeT_uniform,
 		DLSR_activeT_vest,
 		DLSR_activeT_backpack,
@@ -156,8 +157,7 @@ class DLSR
 		x = 0.266636 * safezoneW + safezoneX;
 		y = 0.2256 * safezoneH + safezoneY;
 		w = 0.466751 * safezoneW;
-		h = 0.0308 * safezoneH;
-		
+		h = 0.0308 * safezoneH;		
 	};
 	class DLSR_txt_munitionHeader: RscText
 	{
@@ -166,8 +166,7 @@ class DLSR
 		x = 0.269552 * safezoneW + safezoneX;
 		y = 0.2676 * safezoneH + safezoneY;
 		w = 0.128263 * safezoneW;
-		h = 0.0224 * safezoneH;
-		
+		h = 0.0224 * safezoneH;		
 	};
 	class DLSR_txt_compatibleHeader: RscText
 	{
@@ -176,8 +175,7 @@ class DLSR
 		x = 0.400818 * safezoneW + safezoneX;
 		y = 0.2676 * safezoneH + safezoneY;
 		w = 0.198295 * safezoneW;
-		h = 0.0224 * safezoneH;
-		
+		h = 0.0224 * safezoneH;		
 	};
 	class DLSR_txt_containerHeader: RscText
 	{
@@ -186,8 +184,18 @@ class DLSR
 		x = 0.602098 * safezoneW + safezoneX;
 		y = 0.2676 * safezoneH + safezoneY;
 		w = 0.128263 * safezoneW;
-		h = 0.0224 * safezoneH;
-		
+		h = 0.0224 * safezoneH;		
+	};
+	class DLSR_txt_description_footer: RscText
+	{
+		idc = IDC_DLSR_TXT_DESCRIPTION_FOOTER;
+		style = ST_LEFT + ST_MULTI;
+		text = "";
+		colorBackground[] = {0,0,0,0};
+		x = 0.26765 * safezoneW + safezoneX;
+		y = 0.6230 * safezoneH + safezoneY;
+		w = 0.25 * safezoneW;
+		h = 0.35 * safezoneH;		
 	};
 	
 

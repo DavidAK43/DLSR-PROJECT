@@ -93,10 +93,12 @@
 #define MB_BUTTON_CANCEL  2
 #define MB_BUTTON_USER    4
 
+// Colors
+#define Color100_2 "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.90])","(profilenamespace getvariable ['GUI_BCG_RGB_G',0.75])","(profilenamespace getvariable ['GUI_BCG_RGB_B',0.75])",1
+#define Color100 "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.69])","(profilenamespace getvariable ['GUI_BCG_RGB_G',0.75])","(profilenamespace getvariable ['GUI_BCG_RGB_B',0.5])",1
 #define Color75 "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.69])","(profilenamespace getvariable ['GUI_BCG_RGB_G',0.75])","(profilenamespace getvariable ['GUI_BCG_RGB_B',0.5])",0.75
 #define Color50 "(profilenamespace getvariable ['IGUI_BCG_RGB_R',0.69])","(profilenamespace getvariable ['IGUI_BCG_RGB_G',0.75])","(profilenamespace getvariable ['IGUI_BCG_RGB_B',0.5])",0.5
 #define Color25 "(profilenamespace getvariable ['IGUI_BCG_RGB_R',0.69])","(profilenamespace getvariable ['IGUI_BCG_RGB_G',0.75])","(profilenamespace getvariable ['IGUI_BCG_RGB_B',0.5])",0.25
-
 
 class RscText
 {
@@ -291,7 +293,7 @@ class RscActiveText
 	sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	color[] = {1,1,1,1};
 	colorText[] = {1,1,1,1};
-	colorActive[] = {Color75};
+	colorActive[] = {Color100};
 	soundEnter[] = {"\A3\ui_f\data\sound\RscButton\soundEnter",0.09,1};
     soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush",0.09,1};
     soundClick[] = {"\A3\ui_f\data\sound\RscButton\soundClick",0.09,1};
