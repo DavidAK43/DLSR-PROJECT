@@ -132,3 +132,5 @@ _items = if ( CURRENT_SELECTED_CONTAINER != "Gear" ) then {
 lbSetCurSel [IDC_DLSR_LB_CONTAINER, lbCurSel IDC_DLSR_LB_CONTAINER ];
 
 ctrlSetText [ IDC_DLSR_TXT_CONTAINERHEADER, localize (_this select 1) ];
+
+nil

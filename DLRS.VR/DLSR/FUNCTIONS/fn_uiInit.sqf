@@ -42,8 +42,4 @@ call DLSR_fnc_setProgressBars;
 
 call DLSR_fnc_setPipCamera; // execute LAST
 
-
-
-
-
-
+nil

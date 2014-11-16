@@ -53,3 +53,5 @@ if ( CURRENT_SELECTED_CONTAINER != "Gear" ) then {
 	hint localize "STR_A3_DLSR_hint_MainGearWarn";
 	
 };
+
+nil

@@ -85,4 +85,4 @@ if (_type == "Weapon") then {
 
 [ ( _this select 3 ) ] call DLSR_fnc_setbtnAction;
 
-
+nil

@@ -24,3 +24,4 @@
 
 buttonSetAction [IDC_DLSR_BTN_ADDITEM, (_this select 0)];
 
+nil

@@ -88,6 +88,4 @@ if ( CURRENT_SELECTED_CONTAINER == "Gear" ) then {
 	
 };
 
-	
-	
-
+nil

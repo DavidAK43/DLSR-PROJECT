@@ -82,3 +82,5 @@ copyToClipboard (_removeAll + _GEAR + _WEAPONS + _WEAPONITEMS + _ITEMS);
 hintSilent "Your current gear loadout has been copied to the clipboard.";  
 
 if (primaryWeapon player != "") then {player selectWeapon primaryWeapon player;};
+
+nil

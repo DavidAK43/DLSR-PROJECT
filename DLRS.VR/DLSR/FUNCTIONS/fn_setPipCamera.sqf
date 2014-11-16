@@ -43,3 +43,4 @@ waitUntil { isNull ( findDisplay ( IDD_DLSR_DIALOG ) ) };
  
  camDestroy _cam;
 
+ nil

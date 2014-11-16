@@ -108,3 +108,4 @@ if ( CURRENT_SELECTED_CONTAINER != "Gear" ) then {
 	
 	call DLSR_fnc_setContainerImages;
 
+	nil

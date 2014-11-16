@@ -72,3 +72,5 @@ _pointerArray = getArray (configfile >> "CfgWeapons" >> _className >> "WeaponSlo
 lbSetCurSel [ IDC_DLSR_LB_COMPATIBLEACC, lbCurSel IDC_DLSR_LB_COMPATIBLEACC ];
 
 call DLSR_fnc_compatMagsLbPop;
+
+nil

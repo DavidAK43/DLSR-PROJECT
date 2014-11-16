@@ -75,3 +75,6 @@ BLACKLISTITEMS = switch ( faction player ) do {
     }];  
 	
 	call DLSR_fnc_IDC_init; // Initialize IDC variables
+	
+	nil
+	

@@ -38,9 +38,9 @@ if ( CURRENT_SELECTED_CONTAINER == "Gear" ) then {
 } else {
 
 
-
 	[ IDC_DLSR_LB_MAIN ] call DLSR_fnc_addItemToXXX;
 	
 
-
 };
+
+nil
